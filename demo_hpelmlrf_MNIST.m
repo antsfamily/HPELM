@@ -71,8 +71,8 @@ disp(opts)
 % setup
 hpelm = hpelmsetup(hpelm, train_x, opts);
 
-Cs = [ 0.1 0.001 0.01 0.1 0.2 0.3 0.4 0.5];
-Nss = [20000, 1000, 10000, 20000, 30000];
+Cs = [ 0.0001 0.001 0.01 0.1 0.2 0.3 0.4 0.5];
+Nss = [40000, 50000, 60000];
 
 for Ns = Nss
     opts.batchsize = min(Ns, opts.batchsize);

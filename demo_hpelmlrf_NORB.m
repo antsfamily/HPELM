@@ -47,7 +47,7 @@ clear X Y;
 
 hpelm.layers = {
 	struct('type', 'i') %input layer
-    struct('type', 'c', 'outputmaps', 18, 'kernelsize', 4) %convolution layer
+    struct('type', 'c', 'outputmaps', 28, 'kernelsize', 4) %convolution layer
 	struct('type', 's', 'scale', 7) %sub sampling layer, 7 is 3 in the paper
 %     struct('type', 'c', 'outputmaps', 18, 'kernelsize', 4) %convolution layer
 	struct('type', 's', 'scale', 5) %sub sampling layer
@@ -68,7 +68,7 @@ opts.batchsize = 10000;
 opts.model = 'sequential';
 % opts.model = 'parallel';
 opts.randseed = [];
-opts.randseed = 0;
+opts.randseed = 2019;
 opts.activation = [];
 % opts.activation = 'relu';
 % opts.activation = 'tanh';
@@ -82,7 +82,7 @@ disp(opts)
 hpelm = hpelmsetup(hpelm, train_x, opts);
 
 Cs = [ 0.0001 0.001 0.01 0.1 0.2 0.3 0.4 0.5];
-Nss = [100, 1000, 10000, 24300];
+Nss = [20000, 1000, 10000, 24300];
 
 for Ns = Nss
     opts.batchsize = min(Ns, opts.batchsize);

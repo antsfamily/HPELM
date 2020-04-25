@@ -65,6 +65,7 @@ end
 % %  feedforward into output perceptrons
 % net.o = sigm(net.ffW * net.fv + repmat(net.ffb, 1, size(net.fv, 2)));
 net.h = net.h';
-% net.h = relu(net.h);
+% net.h = tanh(net.h');
+% net.h = relu(net.h');
 end
 

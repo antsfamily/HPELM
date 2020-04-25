@@ -1,0 +1,769 @@
+>> demo_hpelmlrf_MNIST
+    type: 'i'
+
+          type: 'c'
+    outputmaps: 24
+    kernelsize: 9
+
+     type: 's'
+    scale: 5
+
+     type: 's'
+    scale: 3
+
+     type: 's'
+    scale: 5
+
+     type: 's'
+    scale: 3
+
+     type: 's'
+    scale: 5
+
+     type: 's'
+    scale: 3
+
+     type: 's'
+    scale: 7
+
+     isUseClassDistFuzzy: 0
+    isUseTrainErrorFuzzy: 0
+     isUseRandErrorFuzzy: 0
+               batchsize: 10000
+                   model: 'sequential'
+                randseed: 0
+              activation: []
+
+
+=====With C  = 0.000100,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.580000s
+
+Testing error: 0.232600
+Testing Time:73.320000s
+
+=====With C  = 0.001000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.000000s
+
+Testing error: 0.232600
+Testing Time:73.720000s
+
+=====With C  = 0.010000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.100000s
+
+Testing error: 0.232600
+Testing Time:75.470000s
+
+=====With C  = 0.100000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.020000s
+
+Testing error: 0.232600
+Testing Time:77.660000s
+
+=====With C  = 0.200000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.120000s
+
+Testing error: 0.232600
+Testing Time:73.510000s
+
+=====With C  = 0.300000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.060000s
+
+Testing error: 0.232600
+Testing Time:75.010000s
+
+=====With C  = 0.400000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.350000s
+
+Testing error: 0.232600
+Testing Time:76.250000s
+
+=====With C  = 0.500000,  Ns = 100.000000=====
+         100        9600
+
+
+Training error: 0.000000
+Training Time:1.060000s
+
+Testing error: 0.232600
+Testing Time:76.950000s
+
+=====With C  = 0.000100,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:11.740000s
+
+Testing error: 0.086800
+Testing Time:78.910000s
+
+=====With C  = 0.001000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:11.570000s
+
+Testing error: 0.125500
+Testing Time:75.640000s
+
+=====With C  = 0.010000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:12.060000s
+
+Testing error: 0.154600
+Testing Time:81.860000s
+
+=====With C  = 0.100000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:12.750000s
+
+Testing error: 0.160300
+Testing Time:86.960000s
+
+=====With C  = 0.200000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:10.850000s
+
+Testing error: 0.160700
+Testing Time:86.170000s
+
+=====With C  = 0.300000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:10.550000s
+
+Testing error: 0.160900
+Testing Time:82.670000s
+
+=====With C  = 0.400000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:10.690000s
+
+Testing error: 0.161100
+Testing Time:84.930000s
+
+=====With C  = 0.500000,  Ns = 1000.000000=====
+        1000        9600
+
+
+Training error: 0.000000
+Training Time:11.130000s
+
+Testing error: 0.161100
+Testing Time:79.060000s
+
+=====With C  = 0.000100,  Ns = 10000.000000=====
+       10000        9600
+
+
+Training error: 0.004700
+Training Time:657.070000s
+
+Testing error: 0.017500
+Testing Time:91.120000s
+
+=====With C  = 0.001000,  Ns = 10000.000000=====
+       10000        9600
+
+
+Training error: 0.002800
+Training Time:830.760000s
+
+Testing error: 0.016500
+Testing Time:77.800000s
+
+=====With C  = 0.010000,  Ns = 10000.000000=====
+       10000        9600
+
+
+Training error: 0.002300
+Training Time:640.540000s
+
+Testing error: 0.015900
+Testing Time:87.650000s
+
+=====With C  = 0.100000,  Ns = 10000.000000=====
+       10000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.081678e-16. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.001200
+Training Time:568.900000s
+
+Testing error: 0.017200
+Testing Time:76.030000s
+
+=====With C  = 0.200000,  Ns = 10000.000000=====
+       10000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  5.193879e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.001000
+Training Time:658.130000s
+
+Testing error: 0.017900
+Testing Time:79.030000s
+
+=====With C  = 0.300000,  Ns = 10000.000000=====
+       10000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  3.566941e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.001000
+Training Time:815.950000s
+
+Testing error: 0.017400
+Testing Time:78.700000s
+
+=====With C  = 0.400000,  Ns = 10000.000000=====
+       10000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.671999e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.001000
+Training Time:694.880000s
+
+Testing error: 0.017400
+Testing Time:89.080000s
+
+=====With C  = 0.500000,  Ns = 10000.000000=====
+       10000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.856019e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.001000
+Training Time:639.270000s
+
+Testing error: 0.017300
+Testing Time:93.230000s
+
+=====With C  = 0.000100,  Ns = 20000.000000=====
+       20000        9600
+
+
+Training error: 0.009000
+Training Time:1269.030000s
+
+Testing error: 0.015300
+Testing Time:77.320000s
+
+=====With C  = 0.001000,  Ns = 20000.000000=====
+       20000        9600
+
+
+Training error: 0.006500
+Training Time:1006.350000s
+
+Testing error: 0.014200
+Testing Time:76.370000s
+
+=====With C  = 0.010000,  Ns = 20000.000000=====
+       20000        9600
+
+
+Training error: 0.004350
+Training Time:946.710000s
+
+Testing error: 0.014500
+Testing Time:87.570000s
+
+=====With C  = 0.100000,  Ns = 20000.000000=====
+       20000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  5.913257e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.002750
+Training Time:946.240000s
+
+Testing error: 0.013900
+Testing Time:75.880000s
+
+=====With C  = 0.200000,  Ns = 20000.000000=====
+       20000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.738134e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.002550
+Training Time:990.650000s
+
+Testing error: 0.013600
+Testing Time:74.790000s
+
+=====With C  = 0.300000,  Ns = 20000.000000=====
+       20000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.753003e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.002400
+Training Time:994.570000s
+
+Testing error: 0.013500
+Testing Time:74.940000s
+
+=====With C  = 0.400000,  Ns = 20000.000000=====
+       20000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.284663e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.002350
+Training Time:1161.920000s
+
+Testing error: 0.013700
+Testing Time:74.450000s
+
+=====With C  = 0.500000,  Ns = 20000.000000=====
+       20000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.169533e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.002300
+Training Time:1173.540000s
+
+Testing error: 0.013500
+Testing Time:95.980000s
+
+=====With C  = 0.000100,  Ns = 30000.000000=====
+       30000        9600
+
+
+Training error: 0.010400
+Training Time:1453.240000s
+
+Testing error: 0.014800
+Testing Time:77.660000s
+
+=====With C  = 0.001000,  Ns = 30000.000000=====
+       30000        9600
+
+
+Training error: 0.008300
+Training Time:1421.100000s
+
+Testing error: 0.013800
+Testing Time:77.780000s
+
+=====With C  = 0.010000,  Ns = 30000.000000=====
+       30000        9600
+
+
+Training error: 0.006300
+Training Time:1457.030000s
+
+Testing error: 0.012900
+Testing Time:90.450000s
+
+=====With C  = 0.100000,  Ns = 30000.000000=====
+       30000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  3.832738e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.004300
+Training Time:1359.760000s
+
+Testing error: 0.012700
+Testing Time:72.060000s
+
+=====With C  = 0.200000,  Ns = 30000.000000=====
+       30000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.922869e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.003967
+Training Time:1314.120000s
+
+Testing error: 0.012400
+Testing Time:71.750000s
+
+=====With C  = 0.300000,  Ns = 30000.000000=====
+       30000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.424758e-17. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.003667
+Training Time:1337.640000s
+
+Testing error: 0.012000
+Testing Time:71.640000s
+
+=====With C  = 0.400000,  Ns = 30000.000000=====
+       30000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  9.414466e-18. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.003500
+Training Time:1312.140000s
+
+Testing error: 0.012100
+Testing Time:71.410000s
+
+=====With C  = 0.500000,  Ns = 30000.000000=====
+       30000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  7.412581e-18. 
+> In hpelmtrain (line 79)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.003433
+Training Time:1329.010000s
+
+Testing error: 0.012200
+Testing Time:71.830000s
+
+=====With C  = 0.000100,  Ns = 40000.000000=====
+       40000        9600
+
+
+Training error: 0.011425
+Training Time:1387.390000s
+
+Testing error: 0.014100
+Testing Time:76.560000s
+
+=====With C  = 0.001000,  Ns = 40000.000000=====
+       40000        9600
+
+
+Training error: 0.009325
+Training Time:1396.960000s
+
+Testing error: 0.013400
+Testing Time:70.970000s
+
+=====With C  = 0.010000,  Ns = 40000.000000=====
+       40000        9600
+
+
+Training error: 0.007350
+Training Time:1359.610000s
+
+Testing error: 0.013300
+Testing Time:71.030000s
+
+=====With C  = 0.100000,  Ns = 40000.000000=====
+       40000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  3.151985e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005750
+Training Time:1358.480000s
+
+Testing error: 0.012000
+Testing Time:71.260000s
+
+=====With C  = 0.200000,  Ns = 40000.000000=====
+       40000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.642471e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005500
+Training Time:1335.480000s
+
+Testing error: 0.012300
+Testing Time:70.030000s
+
+=====With C  = 0.300000,  Ns = 40000.000000=====
+       40000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  8.836528e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005250
+Training Time:1327.060000s
+
+Testing error: 0.012100
+Testing Time:70.390000s
+
+=====With C  = 0.400000,  Ns = 40000.000000=====
+       40000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  6.344202e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005075
+Training Time:1318.390000s
+
+Testing error: 0.012000
+Testing Time:69.890000s
+
+=====With C  = 0.500000,  Ns = 40000.000000=====
+       40000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  5.853398e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.004950
+Training Time:1378.030000s
+
+Testing error: 0.012200
+Testing Time:71.400000s
+
+=====With C  = 0.000100,  Ns = 50000.000000=====
+       50000        9600
+
+
+Training error: 0.012000
+Training Time:1630.520000s
+
+Testing error: 0.013400
+Testing Time:71.190000s
+
+=====With C  = 0.001000,  Ns = 50000.000000=====
+       50000        9600
+
+
+Training error: 0.009640
+Training Time:1626.130000s
+
+Testing error: 0.012700
+Testing Time:69.310000s
+
+=====With C  = 0.010000,  Ns = 50000.000000=====
+       50000        9600
+
+
+Training error: 0.007820
+Training Time:1616.930000s
+
+Testing error: 0.012300
+Testing Time:69.470000s
+
+=====With C  = 0.100000,  Ns = 50000.000000=====
+       50000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.580897e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006200
+Training Time:1610.970000s
+
+Testing error: 0.012100
+Testing Time:69.170000s
+
+=====With C  = 0.200000,  Ns = 50000.000000=====
+       50000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.157216e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005820
+Training Time:1679.060000s
+
+Testing error: 0.011800
+Testing Time:72.230000s
+
+=====With C  = 0.300000,  Ns = 50000.000000=====
+       50000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  8.514747e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005580
+Training Time:1685.280000s
+
+Testing error: 0.011900
+Testing Time:72.950000s
+
+=====With C  = 0.400000,  Ns = 50000.000000=====
+       50000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  4.816949e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005520
+Training Time:1628.070000s
+
+Testing error: 0.011800
+Testing Time:69.250000s
+
+=====With C  = 0.500000,  Ns = 50000.000000=====
+       50000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  4.498054e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.005320
+Training Time:1620.690000s
+
+Testing error: 0.011700
+Testing Time:70.070000s
+
+=====With C  = 0.000100,  Ns = 60000.000000=====
+       60000        9600
+
+
+Training error: 0.011983
+Training Time:1900.690000s
+
+Testing error: 0.014000
+Testing Time:72.460000s
+
+=====With C  = 0.001000,  Ns = 60000.000000=====
+       60000        9600
+
+
+Training error: 0.009983
+Training Time:1888.520000s
+
+Testing error: 0.012600
+Testing Time:69.660000s
+
+=====With C  = 0.010000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.160995e-16. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.008150
+Training Time:1894.580000s
+
+Testing error: 0.011700
+Testing Time:69.230000s
+
+=====With C  = 0.100000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.145156e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006850
+Training Time:1891.430000s
+
+Testing error: 0.011100
+Testing Time:71.160000s
+
+=====With C  = 0.200000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  1.090614e-17. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006483
+Training Time:1901.520000s
+
+Testing error: 0.010900
+Testing Time:69.580000s
+
+=====With C  = 0.300000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  7.106152e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006300
+Training Time:1898.190000s
+
+Testing error: 0.010800
+Testing Time:70.680000s
+
+=====With C  = 0.400000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  5.107102e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006150
+Training Time:1905.490000s
+
+Testing error: 0.010700
+Testing Time:69.670000s
+
+=====With C  = 0.500000,  Ns = 60000.000000=====
+       60000        9600
+
+Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  3.716448e-18. 
+> In hpelmtrain (line 77)
+  In demo_hpelmlrf_MNIST (line 85) 
+
+Training error: 0.006017
+Training Time:1895.020000s
+
+Testing error: 0.011100
+Testing Time:69.800000s

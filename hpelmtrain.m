@@ -48,13 +48,11 @@ for l = 1 : numBatches
 
 end
 
-clear x batch_x kk idx idxkk;
-
-
 
 % Construct T
 T = double(y); % nSamples-nClasses
-clear y;
+
+clear x y batch_x kk idx idxkk;
 
 [N, L] = size(H);
 disp([N, L])
