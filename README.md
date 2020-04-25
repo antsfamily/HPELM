@@ -12,7 +12,7 @@ Framework of ELMLRF
 Framework of HPELM
 
 
-Please kindly cite the paper "Hierarchical Pooling based Extreme Learning Machine for Image Classification".
+Please kindly cite the paper **Hierarchical Pooling based Extreme Learning Machine for Image Classification** [pdf](https://link.springer.com/chapter/10.1007/978-981-32-9698-5_1).
 Bibtex:
 
 ```
