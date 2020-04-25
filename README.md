@@ -3,14 +3,17 @@
 Hierarchical Pooling based Extreme Learning Machine for Image Classification
 
 
-![Framework of ELMLRF](./doc/frameworkELMLRF.png "Framework of ELMLRF")
+![Framework of ELMLRF](./doc/FrameworkELMLRF.png "Framework of ELMLRF")
+Framework of ELMLRF
 
-![Framework of HPELM](./doc/frameworkHPELM.png "Framework of HPELM")
+![Framework of HPELM](./doc/FrameworkHPELM.png "Framework of HPELM")
+Framework of HPELM
 
 
 Please kindly cite the paper "Hierarchical Pooling based Extreme Learning Machine for Image Classification".
 Bibtex:
 
+```
 @incollection{Liu.2020,
  author = {Liu, Yan and Liu, Zhi and Lei, Zhirong},
  title = {Hierarchical Pooling Based Extreme Learning Machine for Image Classification},
@@ -25,6 +28,7 @@ Bibtex:
  address = {Singapore},
  doi = {10.1007/978-981-32-9698-5{\textunderscore }1}
 }
+```
 
 
 
