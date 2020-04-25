@@ -3,10 +3,10 @@
 Hierarchical Pooling based Extreme Learning Machine for Image Classification
 
 
-![Framework of ELMLRF](https://github.com/antsfamily/HPELM/raw/master/doc/FrameworkELMLRF.png "Framework of ELMLRF")
+![Framework of ELMLRF](https://github.com/antsfamily/HPELM/raw/master/doc/FrameworkELMLRF.png)
 Framework of ELMLRF
 
-![Framework of HPELM](https://github.com/antsfamily/HPELM/raw/master/doc/FrameworkHPELM.png "Framework of HPELM")
+![Framework of HPELM](https://github.com/antsfamily/HPELM/raw/master/doc/FrameworkHPELM.png)
 Framework of HPELM
 
 
